@@ -1,0 +1,701 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.xctest/Contents/MacOS/FoldKernelPackageTests",
+      "packagePath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel",
+      "productName" : "FoldKernelPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.FoldKernel-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/sources",
+      "importPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/CanonicalSquare.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/Permutation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/SymmetryTransform.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FoldKernel",
+      "moduleOutputPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules/FoldKernel.swiftmodule",
+      "objects" : [
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/CanonicalSquare.swift.o",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/Permutation.swift.o",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/SymmetryTransform.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/include/FoldKernel-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "foldkernel"
+      ],
+      "outputFileMapPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/CanonicalSquare.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/Permutation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/SymmetryTransform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules/FoldKernel.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/CanonicalSquare.swift",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/Permutation.swift",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/SymmetryTransform.swift"
+      ],
+      "tempsPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.FoldKernelPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/sources",
+      "importPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules/FoldKernelTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FoldKernelPackageTests",
+      "moduleOutputPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules/FoldKernelPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/include/FoldKernelPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "foldkernel"
+      ],
+      "outputFileMapPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules/FoldKernelPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.FoldKernelTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/sources",
+      "importPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/PermutationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/SymmetryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules/FoldKernel.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FoldKernelTests",
+      "moduleOutputPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules/FoldKernelTests.swiftmodule",
+      "objects" : [
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/PermutationTests.swift.o",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/SymmetryTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "foldkernel"
+      ],
+      "outputFileMapPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/PermutationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/SymmetryTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules/FoldKernelTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/PermutationTests.swift",
+        "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/SymmetryTests.swift"
+      ],
+      "tempsPath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "FoldKernel" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FoldKernel",
+      "-package-name",
+      "foldkernel",
+      "-c",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/CanonicalSquare.swift",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/Permutation.swift",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/SymmetryTransform.swift",
+      "-I",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/include/FoldKernel-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "foldkernel",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "FoldKernelPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FoldKernelPackageTests",
+      "-package-name",
+      "foldkernel",
+      "-c",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/include/FoldKernelPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "foldkernel",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "FoldKernelTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FoldKernelTests",
+      "-package-name",
+      "foldkernel",
+      "-c",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/PermutationTests.swift",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/SymmetryTests.swift",
+      "-I",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "foldkernel",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "FoldKernel" : [
+
+    ],
+    "FoldKernelPackageTests" : [
+      "FoldKernelTests",
+      "FoldKernel"
+    ],
+    "FoldKernelTests" : [
+      "FoldKernel"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/CanonicalSquare.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/Permutation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/SymmetryTransform.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/sources"
+    },
+    "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/sources"
+    },
+    "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/CanonicalSquare.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/Permutation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/SymmetryTransform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/PermutationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/SymmetryTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/PermutationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/SymmetryTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/sources"
+    },
+    "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

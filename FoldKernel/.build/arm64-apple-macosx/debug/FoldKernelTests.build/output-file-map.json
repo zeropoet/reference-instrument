@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/master.swiftdeps"
+  },
+  "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/PermutationTests.swift": {
+    "dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/PermutationTests.d",
+    "object": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/PermutationTests.swift.o",
+    "swiftmodule": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/PermutationTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/PermutationTests.swiftdeps",
+    "diagnostics": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/PermutationTests.dia"
+  },
+  "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Tests/FoldKernelTests/SymmetryTests.swift": {
+    "dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/SymmetryTests.d",
+    "object": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/SymmetryTests.swift.o",
+    "swiftmodule": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/SymmetryTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/SymmetryTests.swiftdeps",
+    "diagnostics": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelTests.build/SymmetryTests.dia"
+  }
+}

@@ -1,0 +1,3 @@
+module FoldKernel {
+    header "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/include/FoldKernel-Swift.h"
+}

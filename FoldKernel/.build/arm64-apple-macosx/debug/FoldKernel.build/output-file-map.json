@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/master.swiftdeps"
+  },
+  "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/CanonicalSquare.swift": {
+    "dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/CanonicalSquare.d",
+    "object": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/CanonicalSquare.swift.o",
+    "swiftmodule": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/CanonicalSquare~partial.swiftmodule",
+    "swift-dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/CanonicalSquare.swiftdeps",
+    "diagnostics": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/CanonicalSquare.dia"
+  },
+  "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/Permutation.swift": {
+    "dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/Permutation.d",
+    "object": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/Permutation.swift.o",
+    "swiftmodule": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/Permutation~partial.swiftmodule",
+    "swift-dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/Permutation.swiftdeps",
+    "diagnostics": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/Permutation.dia"
+  },
+  "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/Sources/FoldKernel/SymmetryTransform.swift": {
+    "dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/SymmetryTransform.d",
+    "object": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/SymmetryTransform.swift.o",
+    "swiftmodule": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/SymmetryTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/SymmetryTransform.swiftdeps",
+    "diagnostics": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernel.build/SymmetryTransform.dia"
+  }
+}

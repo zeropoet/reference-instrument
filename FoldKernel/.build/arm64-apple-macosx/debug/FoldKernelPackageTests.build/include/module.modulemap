@@ -1,0 +1,3 @@
+module FoldKernelPackageTests {
+    header "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/include/FoldKernelPackageTests-Swift.h"
+}

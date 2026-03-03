@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/master.swiftdeps"
+  },
+  "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/runner.d",
+    "object": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/zeropoet/WebstormProjects/the-fold/FoldKernel/.build/arm64-apple-macosx/debug/FoldKernelPackageTests.build/runner.dia"
+  }
+}
