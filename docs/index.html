@@ -7,19 +7,149 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>REFERENCE INSTRUMENT</h1>
+    <main class="home">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Deterministic instrument</p>
+                <h1>Reference Instrument</h1>
+                <p class="lede">
+                    A deterministic instrument for exploring relational symmetry. Each exploration produces a cryptographically identified artifact. Artifacts record the path taken through the structure.
+                </p>
+                <div class="hero-actions">
+                    <a href="archive.html" class="button button-primary">Enter Archive</a>
+                    <a href="https://github.com/zeropoet/reference-instrument" class="button button-secondary">View Source</a>
+                </div>
+            </div>
 
-        <p class="statement">
-            A deterministic instrument for exploring relational symmetry.
-            Each exploration produces a cryptographically identified artifact.
-        </p>
+            <aside class="hero-panel">
+                <p class="panel-label">Structure</p>
+                <div class="flow-stack">
+                    <div class="flow-node">instrument</div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-node">artifact generation</div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-node">artifact archive</div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-node">public catalog</div>
+                </div>
+                <p class="panel-note">No network calls occur inside the instrument itself. Artifacts are exported and committed to the archive repository.</p>
+            </aside>
+        </section>
 
-        <p class="statement">Artifacts record the path taken through the structure.</p>
+        <section class="section-grid">
+            <article class="panel">
+                <p class="panel-label">Convergence Invariants</p>
+                <div class="card-grid">
+                    <div class="mini-card">
+                        <h2>Arithmetic</h2>
+                        <p>Rows, columns, and diagonals must sum to 34.</p>
+                    </div>
+                    <div class="mini-card">
+                        <h2>Topology</h2>
+                        <p>Adjacency relationships are measured against the canonical square.</p>
+                    </div>
+                    <div class="mini-card">
+                        <h2>Symmetry</h2>
+                        <p>Membership is evaluated inside the canonical orbit.</p>
+                    </div>
+                </div>
+            </article>
 
-        <div class="divider"></div>
+            <article class="panel">
+                <p class="panel-label">Artifact Output</p>
+                <div class="artifact-list">
+                    <div class="artifact-row">
+                        <span>sigil.svg</span>
+                        <span>trace of the exploration path</span>
+                    </div>
+                    <div class="artifact-row">
+                        <span>artifact hash</span>
+                        <span>cryptographic identity</span>
+                    </div>
+                    <div class="artifact-row">
+                        <span>memory hash</span>
+                        <span>encoded event history</span>
+                    </div>
+                    <div class="artifact-row">
+                        <span>metadata</span>
+                        <span>structural record</span>
+                    </div>
+                </div>
+            </article>
+        </section>
 
-        <a href="archive.html" class="enter">ENTER ARCHIVE</a>
-    </div>
+        <section class="section-grid">
+            <article class="panel">
+                <p class="panel-label">Archive</p>
+                <p class="statement left">
+                    Each completed convergence is exported as a static artifact with a permanent address and corresponding QR identity.
+                </p>
+                <p class="statement left">
+                    <br>
+                    Public Catalog:
+                    <a href="https://zeropoet.github.io/reference-instrument">zeropoet.github.io/reference-instrument</a>
+                </p>
+            </article>
+
+            <article class="panel featured-panel">
+                <p class="panel-label">Latest Indexed Artifact</p>
+                <div id="featured-artifact" class="featured-artifact">
+                    <p class="statement left">Loading archive index...</p>
+                </div>
+            </article>
+        </section>
+
+        <footer class="footer">
+            <p>Implemented as a Swift iPhone application built on FoldKernel.</p>
+            <p>Author: Zeropoet</p>
+        </footer>
+    </main>
+
+    <script>
+        const featured = document.getElementById("featured-artifact");
+
+        function artifactBaseUrl() {
+            const owner = window.location.hostname.split(".")[0];
+            const [repo] = window.location.pathname
+                .split("/")
+                .filter(Boolean);
+
+            if (window.location.hostname.endsWith("github.io") && owner && repo) {
+                return `https://raw.githubusercontent.com/${owner}/${repo}/main/artifacts`;
+            }
+
+            return "../artifacts";
+        }
+
+        async function loadFeaturedArtifact() {
+            const response = await fetch("./artifacts.json");
+            if (!response.ok) {
+                throw new Error("index");
+            }
+
+            const hashes = await response.json();
+            if (!hashes.length) {
+                featured.innerHTML = "<p class=\"statement left\">No artifacts indexed yet.</p>";
+                return;
+            }
+
+            const hash = hashes[0];
+            const base = `${artifactBaseUrl()}/${hash}`;
+
+            featured.innerHTML = `
+                <a class="featured-link" href="artifact.html?hash=${hash}">
+                    <img src="${base}/sigil.svg" alt="Sigil artifact ${hash}">
+                    <div>
+                        <p class="featured-hash">${hash.slice(0, 9)}</p>
+                        <p class="featured-meta">Open permanent artifact record</p>
+                    </div>
+                </a>
+            `;
+        }
+
+        loadFeaturedArtifact().catch(() => {
+            featured.innerHTML = "<p class=\"statement left\">Unable to load archive index.</p>";
+        });
+    </script>
 </body>
 </html>
