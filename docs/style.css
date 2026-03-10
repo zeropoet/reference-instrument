@@ -85,6 +85,7 @@ a:hover {
 }
 
 h1 {
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif;
     font-size: clamp(34px, 7vw, 64px);
     line-height: 1;
     font-weight: 400;
@@ -328,6 +329,7 @@ h2 {
 }
 
 .page-title {
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif;
     margin: 0;
     font-size: clamp(22px, 5vw, 34px);
     line-height: 1.08;
