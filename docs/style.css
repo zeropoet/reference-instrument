@@ -1,0 +1,125 @@
+body {
+    background: white;
+    color: black;
+    font-family: monospace;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 640px;
+    margin: 120px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0 0 12px;
+    text-align: center;
+}
+
+.statement {
+    margin-top: 24px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.divider {
+    width: 60px;
+    height: 1px;
+    background: black;
+    margin: 40px auto;
+}
+
+.enter {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.nav {
+    display: block;
+    margin: 40px;
+    font-size: 14px;
+}
+
+#gallery,
+.artifact-page {
+    padding: 0 20px 80px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    gap: 40px;
+    justify-content: center;
+    margin: 40px auto 0;
+}
+
+.artifact-card {
+    border: 1px solid black;
+    padding: 20px 16px 16px;
+    text-align: center;
+}
+
+.artifact-card img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+
+.artifact-card code {
+    font-size: 14px;
+}
+
+.artifact-page {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.artifact-detail-card {
+    border: 1px solid black;
+    padding: 24px 20px;
+    text-align: center;
+}
+
+.artifact-detail-sigil {
+    display: block;
+    width: min(260px, 100%);
+    margin: 0 auto 24px;
+}
+
+.artifact-detail-qr {
+    display: block;
+    width: 160px;
+    margin: 0 auto 24px;
+}
+
+code {
+    display: inline-block;
+}
+
+code,
+pre {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+pre {
+    border: 1px solid black;
+    padding: 16px;
+    text-align: left;
+    white-space: pre-wrap;
+}

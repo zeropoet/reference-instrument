@@ -1,0 +1,45 @@
+name: Index Artifacts
+
+on:
+  push:
+    paths:
+      - "artifacts/**"
+  workflow_dispatch:
+
+jobs:
+  index-artifacts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild artifact index
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          artifacts_dir = Path("artifacts")
+          hashes = sorted(
+              entry.name
+              for entry in artifacts_dir.iterdir()
+              if entry.is_dir()
+          ) if artifacts_dir.exists() else []
+
+          docs_dir = Path("docs")
+          docs_dir.mkdir(exist_ok=True)
+          (docs_dir / "artifacts.json").write_text(
+              json.dumps(hashes, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Commit updated index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/artifacts.json
+          git diff --cached --quiet || git commit -m "Update artifact index"
+          git push

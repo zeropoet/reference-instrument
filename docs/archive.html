@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reference Instrument Archive</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <a href="index.html" class="nav">REFERENCE INSTRUMENT</a>
+    <h1>ARTIFACT ARCHIVE</h1>
+    <p class="statement">Each sigil represents a completed convergence.</p>
+    <div id="gallery"></div>
+
+    <script>
+        const gallery = document.getElementById("gallery");
+        const MAX_INITIAL = 200;
+
+        function artifactBaseUrl() {
+            const owner = window.location.hostname.split(".")[0];
+            const [repo] = window.location.pathname
+                .split("/")
+                .filter(Boolean);
+
+            if (window.location.hostname.endsWith("github.io") && owner && repo) {
+                return `https://raw.githubusercontent.com/${owner}/${repo}/main/artifacts`;
+            }
+
+            return "../artifacts";
+        }
+
+        async function renderGallery() {
+            const response = await fetch("./artifacts.json");
+            const hashes = await response.json();
+            const baseUrl = artifactBaseUrl();
+
+            if (!hashes.length) {
+                gallery.innerHTML = "<p>No artifacts indexed yet.</p>";
+                return;
+            }
+
+            for (const hash of hashes.slice(0, MAX_INITIAL)) {
+                const displayHash = hash.slice(0, 9);
+                const card = document.createElement("article");
+                card.className = "artifact-card";
+
+                const img = document.createElement("img");
+                img.loading = "lazy";
+                img.width = 180;
+                img.height = 180;
+                img.src = `${baseUrl}/${hash}/sigil.svg`;
+                img.alt = `Sigil artifact ${hash}`;
+                img.style.cursor = "pointer";
+                img.onclick = () => {
+                    window.location = `artifact.html?hash=${hash}`;
+                };
+
+                const code = document.createElement("code");
+                code.textContent = displayHash;
+
+                card.append(img, code);
+                gallery.appendChild(card);
+            }
+        }
+
+        renderGallery().catch(() => {
+            gallery.innerHTML = "<p>Unable to load artifact index.</p>";
+        });
+    </script>
+</body>
+</html>
